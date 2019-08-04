@@ -1,0 +1,60 @@
+input[type=text]:focus {
+  border: 2px solid rgb(15, 11, 243);
+}
+input[type=text] {
+  width: 30%;
+  padding: 10px 12px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid grey;
+  height:40px;
+  font-size: 20px;
+  }
+
+button {
+    padding: 10px 10px;
+    font-size: 15px;
+    background-color: white;
+      color: black;
+      border: 2px solid black;
+      width: 170px;
+      height: 40px;
+
+}
+
+#stock {
+  font-family: "Times New Roman";
+  width: 100%;
+  }
+
+  h1{
+  color: rgb(3, 112, 3);
+  text-align: center;
+}
+
+#stock td, #stock th {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+#stock tr:hover{
+  background-color: white;
+text-align: center;
+}
+
+#stock tr:hover {
+  background-color: yellowgreen;
+}
+
+#stock th {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 15px;
+  text-align: center;
+  background-color:orange;
+  color: black;
+
+}
+
+
+
